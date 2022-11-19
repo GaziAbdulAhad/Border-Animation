@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141f29;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.btn-contaitainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-primary{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+.btn-primary::before, .btn-primary::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgb(187, 111, 11);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btn-primary::before{
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+}
+
+.btn-primary::after{
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.btn-primary:hover::before{
+    width: 100%;
+}
+
+.btn-primary:hover::after{
+    width: 100%;
+}
+
+.btn-spn{
+    display: block;
+    background-color: #301b8f;
+    padding: 20px 60px;
+    /* position: relative; */
+}
+
+.btn-spn::before, .btn-spn::after{
+    content: '';
+    display: block;
+    background-color: rgb(187, 111, 11);
+    position: absolute;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.btn-spn::before{
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 0%;
+}
+
+.btn-spn::after{
+    bottom: 0;
+    right: 0;
+    width: 4px;
+    height: 0%;
+}
+
+.btn-spn:hover::before{
+    height: 100%;
+}
+
+.btn-spn:hover::after{
+    height: 100%;
+}
+
+
+/* second */
+
+.btn-scn{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.btn-scn::before, .btn-scn::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: rgb(5, 126, 31);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btn-scn::before{
+    top: 0;
+    left: 50%;
+    height: 3px;
+    width: 0%;
+}
+
+.btn-scn::after{
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 0%;
+}
+
+.btn-scn:hover::before{
+    width: 100%;
+    left: 0%;
+}
+
+.btn-scn:hover::after{
+    width: 100%;
+    left: 0%;
+}
+
+.btn-text{
+    background-color: #301b8f;
+    padding: 20px 60px;
+    display: block;
+}
+
+.btn-text::before, .btn-text::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(5, 126, 31);
+    display: block;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.btn-text::before{
+    top: 50%;
+    left: 0;
+    height: 0%;
+    width: 3px;
+}
+
+.btn-text::after{
+    top: 50%;
+    right: 0;
+    height: 0%;
+    width: 3px;
+}
+
+.btn-text:hover::before{
+    height: 100%;
+    top: 0;
+}
+
+.btn-text:hover::after{
+    height: 100%;
+    top: 0;
+}
+
+/* .btn-scn{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+.btn-scn::before, .btn-scn::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgb(187, 111, 11);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btn-scn::before{
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+}
+
+.btn-scn::after{
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+}
+
+.btn-scn:hover::before{
+    width: 100%;
+}
+
+.btn-scn:hover::after{
+    width: 100%;
+}
+
+.btn-text{
+    display: block;
+    background-color: #301b8f;
+    padding: 20px 60px;
+    /* position: relative; */
+} */
